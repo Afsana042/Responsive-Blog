@@ -1,0 +1,43 @@
+
+.form-box{
+    margin: 5px;
+    
+}
+.contact-content{
+    height: 76vh;
+}
+.form-box input{
+    padding: 12px;
+    border-radius: 6px;
+    width:50%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid lightslategray;
+}
+.form-box textarea{
+    padding: 12px;
+    border-radius: 6px;
+    width:50%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid lightslategray;
+}
+input{
+    outline: none;
+}
+
+.btn{ 
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0 12px;
+    border: 1px solid grey;  
+    cursor: pointer; 
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(181, 168, 169);
+    font-weight: 700;
+    box-shadow: 1px 1px rgb(181, 168, 169);
+}

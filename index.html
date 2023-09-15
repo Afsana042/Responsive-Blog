@@ -6,22 +6,134 @@
     <title>Responsive web Blog</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="CSS/blogpost.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/contact.css">
 </head>
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <span>iBlog</span>
+            <a href="index.html">
+            <span><img src="img/bg.png" alt="blog icon" width="50px"></span>
+        </a>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <input class="form-input"type="text" placeholder="Article Search">
+            <form action="search.html" method="get">
+            <input class="form-input"type="text" name="query" placeholder="Article Search">
             <button class="btn">Search</button>
-
+        </form>
         </div>
     </nav>
+    <div class="max-width-1 m-auto"><hr></div>
+    <div class="content max-width-1 m-auto">
+        <div class="left-content">
+            <h1>Empowering the technologists of tomorrow</h1>
+            <p>Outside of my daily responsibilities leading a team of software engineers at J.P. Morgan, I appreciate the numerous opportunities our firm provides our technologists to give back in our local communities.</p>
+            <p>As part of J.P. Morgan's volunteerism efforts, we partner with Fundación Pescar, a Buenos Aires-based nonprofit whose primary objective is to equip individuals coming from vulnerable communities with career skills. We recently worked with Fundación Pescar to provide a six-month software development training program called Paths to the Future, which brought new learning opportunities to 300 young women interested in launching a career in technology.</p>
+        </div>
+        <div class="right-content">
+            <img src="img/img.jpg" alt="typing">
+        </div>
+    </div>
+    <div class="max-width-1 m-auto"><hr></div>
+    <div class="home-article max-width-1 m-auto">
+        <div class="year-box">
+            <div>
+            <h3>Year</h3></div>
+            <div>
+                <input type="radio" name="year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2021
+            </div>
+        </div>
+        <h2>Features</h2>
+        <div class="year-box adjust-year">
+            <div>
+            <h3>Year</h3></div>
+            <div>
+                <input type="radio" name="year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2021
+            </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+         
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+        <div class="home-articles">
+            <div class="home-article-img">
+            <img src="img/blog.jpg" alt="blog">
+        </div>
+        <div class="home-article-content">
+            <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet Lorem, ipsum dolor.</h3></a>
+       
+            <span>Author Name</span>
+            <span>07 June | 6 min reading</span>
+            <span></span>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyright &copy; iBlog.com</p>
+    </div>
 </body>
 </html>
